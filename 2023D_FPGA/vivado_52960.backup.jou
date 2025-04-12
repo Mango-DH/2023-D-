@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Apr 10 02:25:02 2025
+# Process ID         : 52960
+# Current directory  : D:/xlinx/11PSK小问题/2023D_FPGA
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent34576 D:\xlinx\11PSK小问题\2023D_FPGA\2023D_FPGA.xpr
+# Log file           : D:/xlinx/11PSK小问题/2023D_FPGA/vivado.log
+# Journal file       : D:/xlinx/11PSK小问题/2023D_FPGA\vivado.jou
+# Running On         : GL_PC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-1260P
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16849 MB
+# Swap memory        : 19327 MB
+# Total Virtual      : 36176 MB
+# Available Virtual  : 11388 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/xlinx/11PSK小问题/2023D_FPGA/2023D_FPGA.xpr
+close [ open D:/xlinx/11PSK小问题/2023D_FPGA/2023D_FPGA.srcs/sources_1/new/mf_measure.v w ]
+add_files D:/xlinx/11PSK小问题/2023D_FPGA/2023D_FPGA.srcs/sources_1/new/mf_measure.v
+launch_runs impl_1 -to_step write_bitstream -jobs 8

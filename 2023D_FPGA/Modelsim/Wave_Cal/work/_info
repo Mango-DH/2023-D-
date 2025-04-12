@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure
+vclk_divider
+Z0 !s110 1744204020
+!i10b 1
+!s100 moc7jXQm1gBo?`4mViY0R3
+IjOQY5<YJJ6eja42fA>]e50
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal
+w1742265036
+8D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/clk_divider.v
+FD:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/clk_divider.v
+L0 1
+Z3 OP;L;10.6c;65
+r1
+!s85 0
+31
+Z4 !s108 1744204020.000000
+!s107 D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/clk_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/clk_divider.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vmeasure_tb
+R0
+!i10b 1
+!s100 CLM[PbleY6bf2?Q0]9LW;0
+Ij>>Efh`WCLalF7iXU^z5o3
+R1
+R2
+w1744203951
+8D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/measure_tb.v
+FD:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/measure_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/measure_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/measure_tb.v|
+!i113 1
+R5
+R6
+vwave_cal
+R0
+!i10b 1
+!s100 6H3[IUIh^QzHzJfL4G?3S1
+IGACBhR7k;^dPSOO2Le;K[1
+R1
+R2
+w1744204012
+8D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/wave_cal.v
+FD:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/wave_cal.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/wave_cal.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/wave_cal.v|
+!i113 1
+R5
+R6

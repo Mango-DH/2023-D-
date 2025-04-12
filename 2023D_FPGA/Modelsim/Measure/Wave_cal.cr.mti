@@ -1,0 +1,28 @@
+D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/clk_divider.v {1 {vlog -work work -stats=none D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/clk_divider.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module clk_divider
+
+Top level modules:
+	clk_divider
+
+} {} {}} D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/wave_cal.v {2 {vlog -work work -stats=none D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/wave_cal.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module wave_cal
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/wave_cal.v(13): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/wave_cal.v(21): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/wave_cal.v(22): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/wave_cal.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	wave_cal
+
+} {} {}} D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/measure_tb.v {2 {vlog -work work -stats=none D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/measure_tb.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module measure_tb
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/measure_tb.v(13): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Wave_Cal/measure_tb.v(14): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	measure_tb
+
+} {} {}}

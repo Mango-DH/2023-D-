@@ -1,0 +1,161 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Apr 10 03:11:39 2025
+# Process ID         : 14684
+# Current directory  : D:/xlinx/FINAL/2023D_FPGA
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent29508 D:\xlinx\FINAL\2023D_FPGA\2023D_FPGA.xpr
+# Log file           : D:/xlinx/FINAL/2023D_FPGA/vivado.log
+# Journal file       : D:/xlinx/FINAL/2023D_FPGA\vivado.jou
+# Running On         : GL_PC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-1260P
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 16849 MB
+# Swap memory        : 19327 MB
+# Total Virtual      : 36176 MB
+# Available Virtual  : 11480 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.xpr
+INFO: [Project 1-313] Project file moved from 'D:/xlinx/11PSK–°Œ Ã‚/2023D_FPGA' since last save.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1171.801 ; gain = 78.289
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dds_c_addsub_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dds_dds_compiler_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dds_dds_compiler_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP dds_mult_gen_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dds_c_addsub_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dds_dds_compiler_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dds_dds_compiler_0_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: dds_mult_gen_0_0
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_sys'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.gen/ila_sys/ip/ila_sys/ila_sys_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_sys'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_sys
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fir_lpf_ask'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mult_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fir_lpf_psk'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'cordic_atan4'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fir_lpf_fsk'...
+[Thu Apr 10 03:12:57 2025] Launched dds_dds_compiler_0_0_synth_1, dds_dds_compiler_0_1_synth_1, dds_mult_gen_0_0_synth_1, dds_c_addsub_0_0_synth_1, fir_lpf_ask_synth_1, mult_gen_0_synth_1, fir_lpf_psk_synth_1, cordic_atan4_synth_1, fir_lpf_fsk_synth_1, ila_sys_synth_1, synth_1...
+Run output will be captured here:
+dds_dds_compiler_0_0_synth_1: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/dds_dds_compiler_0_0_synth_1/runme.log
+dds_dds_compiler_0_1_synth_1: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/dds_dds_compiler_0_1_synth_1/runme.log
+dds_mult_gen_0_0_synth_1: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/dds_mult_gen_0_0_synth_1/runme.log
+dds_c_addsub_0_0_synth_1: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/dds_c_addsub_0_0_synth_1/runme.log
+fir_lpf_ask_synth_1: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/fir_lpf_ask_synth_1/runme.log
+mult_gen_0_synth_1: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/mult_gen_0_synth_1/runme.log
+fir_lpf_psk_synth_1: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/fir_lpf_psk_synth_1/runme.log
+cordic_atan4_synth_1: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/cordic_atan4_synth_1/runme.log
+fir_lpf_fsk_synth_1: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/fir_lpf_fsk_synth_1/runme.log
+ila_sys_synth_1: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/ila_sys_synth_1/runme.log
+synth_1: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/synth_1/runme.log
+[Thu Apr 10 03:13:00 2025] Launched impl_1...
+Run output will be captured here: D:/xlinx/FINAL/2023D_FPGA/2023D_FPGA.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1225.391 ; gain = 17.867
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.2
+  **** Build date : Oct 29 2024 at 10:25:41
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.2.0
+  ****** Build date   : Oct 31 2024-02:19:07
+    **** Build number : 2024.2.1730312347
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1296.277 ; gain = 12.699
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.2.0
+  ****** Build date   : Oct 31 2024-02:19:07
+    **** Build number : 2024.2.1730312347
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.2.0
+  ****** Build date   : Oct 31 2024-02:19:07
+    **** Build number : 2024.2.1730312347
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.2.0
+  ****** Build date   : Oct 31 2024-02:19:07
+    **** Build number : 2024.2.1730312347
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.2.0
+  ****** Build date   : Oct 31 2024-02:19:07
+    **** Build number : 2024.2.1730312347
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 10 03:32:15 2025...

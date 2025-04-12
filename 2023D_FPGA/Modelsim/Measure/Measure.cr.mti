@@ -1,0 +1,58 @@
+D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/clk_divider.v {1 {vlog -work work -stats=none D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/clk_divider.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module clk_divider
+
+Top level modules:
+	clk_divider
+
+} {} {}} D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/frequency_counter.v {1 {vlog -work work -stats=none D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/frequency_counter.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module frequency_counter
+
+Top level modules:
+	frequency_counter
+
+} {} {}} D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/wave_identifier.v {2 {vlog -work work -stats=none D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/wave_identifier.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module wave_identifier
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/wave_identifier.v(11): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/wave_identifier.v(12): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	wave_identifier
+
+} {} {}} D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/measure.v {2 {vlog -work work -stats=none D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/measure.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module measure
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/measure.v(15): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/measure.v(16): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	measure
+
+} {} {}} D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/dc_remover.v {2 {vlog -work work -stats=none D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/dc_remover.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module dc_remover
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/dc_remover.v(12): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/dc_remover.v(13): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/dc_remover.v(19): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+** Warning: D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/dc_remover.v(20): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+
+Top level modules:
+	dc_remover
+
+} {} {}} D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/wave_rectifier.v {1 {vlog -work work -stats=none D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/wave_rectifier.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module wave_rectifier
+
+Top level modules:
+	wave_rectifier
+
+} {} {}} D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/ma_measure.v {1 {vlog -work work -stats=none D:/2024E_Design/2023D/FPGA_Code/2023D_FPGA/Modelsim/Measure/ma_measure.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module ma_measure
+
+Top level modules:
+	ma_measure
+
+} {} {}}
